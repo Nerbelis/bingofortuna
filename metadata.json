@@ -1,0 +1,6 @@
+{
+  "name": "Bingo Fortuna - Bingo en Línea",
+  "description": "Juego de bingo automatizado en línea con extracción en vivo de balotas, botes acumulados y pagos integrados por Binance y Pago Móvil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
