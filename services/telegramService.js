@@ -1,9 +1,8 @@
 import axios from 'axios';
 
 // Token y Chat ID configurados directamente para el funcionamiento en el navegador
-const BOT_TOKEN = "8385603033:AAFrA9tma4x7GeD6KcUEfiH79KZ08lOEsKo";
-const ADMIN_CHAT_ID = "1526051706";
-
+const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const URL = "https://api.telegram.org/bot" + TOKEN + "/sendMessage";
 /**
  * Enviadora robusta de notificaciones de pago a Telegram para Bingo Fortuna
  */
